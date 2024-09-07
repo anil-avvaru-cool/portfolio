@@ -1,0 +1,36 @@
+{
+  "name": "anil-avvaru-cool.github.io",
+  "version": "1.0.0",
+  "description": "Anil Avvaru portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anil-avvaru-cool/anil-avvaru-cool.github.io.git"
+  },
+  "keywords": [
+    "freelance",
+    "affordable software",
+    "quality software",
+    "software",
+    "web design",
+    "website design",
+    "bootstrap"
+  ],
+  "author": "Anil Avvaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anil-avvaru-cool/anil-avvaru-cool.github.io/issues"
+  },
+  "homepage": "https://github.com/anil-avvaru-cool/anil-avvaru-cool.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.78.0"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
+}
