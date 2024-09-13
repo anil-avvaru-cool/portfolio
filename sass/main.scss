@@ -1,6 +1,16 @@
-$primary: #c29938;
-$light: #fbf5e5;
+// variables and functions
+@import 'variables';
 
+// base and layout
+@import 'base';
+
+
+// colors
+
+
+// components (buttons, card, navbar)
+
+// Uitlities (Margin, opacity, padding)
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
