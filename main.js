@@ -59,8 +59,12 @@ customElements.define('my-header',MyHeader);
 class MyFooter extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-        <footer>
-  <p>&copy; All rights reserved Anil Avvaru</p>  
+        <footer class="fixed-bottom" >
+        <p class="text-center" >
+  Hand crafted website using bootstrap from scratch
+  </p>
+  <p class="text-center">  
+  &copy; All Rights Reserved Anil Kumar Avvaru</p>  
 </footer>`
     }
 }
