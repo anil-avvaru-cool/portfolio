@@ -25,7 +25,7 @@ class MyNavBar extends HTMLElement{
                 <a class="nav-link" href="#">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Certifications</a>
+                <a class="nav-link" href="certifications.html">Certifications</a>
               </li>             
               <li class="nav-item">
                 <a class="nav-link" href="#">Testimonial</a>
@@ -48,6 +48,7 @@ class MyHeader extends HTMLElement{
   }
     connectedCallback(){
       const titleVal = this.getAttribute("title");
+      const descriptionVal = this.getAttribute("description");
         this.innerHTML = `
         <head>
     <meta charset="UTF-8">
@@ -55,6 +56,7 @@ class MyHeader extends HTMLElement{
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="css/main.css" rel="stylesheet">
     <title>${titleVal}</title>
+    <meta name="description" content="${descriptionVal}">
 </head>`
     }
 }
