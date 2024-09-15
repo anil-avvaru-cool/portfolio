@@ -66,7 +66,7 @@ customElements.define('my-header',MyHeader);
 class MyFooter extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-        <footer class="fixed-bottom">       
+        <footer>       
   <p class="text-center">  
   &copy; All Rights Reserved Anil Kumar Avvaru, Hand crafted website using bootstrap from scratch.</p>  
 </footer>`
