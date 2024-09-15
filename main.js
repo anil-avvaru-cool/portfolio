@@ -22,7 +22,7 @@ class MyNavBar extends HTMLElement{
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="skills.html">Skills</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="certifications.html">Certifications</a>
