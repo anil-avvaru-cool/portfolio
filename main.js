@@ -43,13 +43,18 @@ class MyNavBar extends HTMLElement{
 customElements.define('my-nav-bar',MyNavBar);
 
 class MyHeader extends HTMLElement{
+  constructor() {
+    super();    
+  }
     connectedCallback(){
+      const titleVal = this.getAttribute("title");
         this.innerHTML = `
         <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freelance software engineering</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="css/main.css" rel="stylesheet">
+    <title>${titleVal}</title>
 </head>`
     }
 }
