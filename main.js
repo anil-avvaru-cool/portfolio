@@ -19,7 +19,7 @@ class MyNavBar extends HTMLElement{
           <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Skills</a>
@@ -31,7 +31,7 @@ class MyNavBar extends HTMLElement{
                 <a class="nav-link" href="#">Testimonial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -59,12 +59,9 @@ customElements.define('my-header',MyHeader);
 class MyFooter extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-        <footer class="fixed-bottom" >
-        <p class="text-center" >
-  Hand crafted website using bootstrap from scratch
-  </p>
+        <footer class="fixed-bottom">       
   <p class="text-center">  
-  &copy; All Rights Reserved Anil Kumar Avvaru</p>  
+  &copy; All Rights Reserved Anil Kumar Avvaru, Hand crafted website using bootstrap from scratch.</p>  
 </footer>`
     }
 }
