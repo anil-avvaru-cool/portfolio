@@ -67,8 +67,8 @@ class MyFooter extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
         <footer>       
-  <p class="text-center">  
-  &copy; All Rights Reserved Anil Kumar Avvaru, Hand crafted website using bootstrap from scratch.</p>  
+  <p class="text-center cust-small-font">  
+  &copy; ${new Date().getFullYear()}, Anil Kumar Avvaru, Hand crafted website using bootstrap from scratch.</p>  
 </footer>`
     }
 }
