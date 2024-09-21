@@ -1,48 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
-  <title>Home</title>
+<html lang="en" data-bs-theme="dark">  
   <script type="module" src="main.js" ></script>
-<my-header></my-header>
+<my-header title="Portfolio Home Anil Avvaru" description="Freelance Portfolio for Anil Kumar Avvaru" >  
+</my-header>
 <body>  
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Certifications</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Clients</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+    <my-nav-bar></my-nav-bar>  
+    <div class="container-fluid">
+        <h2>Anil Kumar Avvaru - Portfolio</h2>        
+        <p>
+          Two decades of Affordable, Quality Information Technology solutions.          
+        </p>
+    </div>    
+    <section id="projects">
+      <div class="container"> 
+        <div class="row my-2 ">         
+          <div class="col-lg-6">
+            <div class="list-group">
+              <div class="list-group-item py-3">               
+                <h5 class="mb-1">Website & Mobile Apps</h5>
+                <p class="mb-1">Website Development, Mobile App development, Web hosting, Domain Registration, Website Maintenance,
+                  Website migration.
+                </p>                
+              </div>
+              <div class="list-group-item py-3">               
+                <h5 class="mb-1">Programming & Tech</h5>
+                <p class="mb-1">Programming, API, Microservices,
+                   Enterprise Architecture, database, ETL, cloud, Azure, AWS, Devops Automation, AI Services,
+                  QA Automation.</p>                
+              </div>
+              <div class="list-group-item py-1">               
+                <h5 class="mb-1">Digital Marketing</h5>
+                <p class="mb-1">Ads posting, Search Engine Optimization(SEO)</p>
+              </div>
+              <div class="list-group-item py-1">                
+                <h5 class="mb-1">Graphics & Design</h5>
+                <p class="mb-1">Logo Design, Image editing, Website, Mobile App UX design</p>
+              </div>
+              <div class="list-group-item py-1">                
+                <h5 class="mb-1">Video & Animation</h5>
+                <p class="mb-1">Video editing, 2D Animation, 3D Animation</p>            
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <img src="assets/images/AnilAvvaru.jpg" class="card-img-top" alt="Anil Kumar Avvaru Freelance Portfolio">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">Anil Kumar Avvaru</p>                  
+                </div>
+              </div> 
+            </div>  
           </div>
         </div>
-      </nav>  
-  
-    <div class="container-fluid">
-        <h2>fluid</h2>
-        <p>18+ Years of experience in crafting software</p>
-    </div>   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      </div>
+    </section>      
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>   
 </body>
-
-<footer></footer>
+<my-footer></my-footer>
 </html>
