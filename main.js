@@ -1,12 +1,3 @@
-class MyScript extends HTMLElement{
-    connectedCallback(){
-        this.innerHTML = `
-        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        `
-    }
-}
-
-customElements.define('my-script',MyScript);
 
 class MyNavBar extends HTMLElement{
     connectedCallback(){
