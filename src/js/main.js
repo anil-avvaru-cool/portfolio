@@ -40,13 +40,14 @@ class MyHeader extends HTMLElement{
     connectedCallback(){
       console.log('header called');
       const titleVal = this.getAttribute("title");
-      const descriptionVal = this.getAttribute("description");      
+      const descriptionVal = this.getAttribute("description");
+      const cssPathVal = this.getAttribute("cssPath");
         this.innerHTML = `
         <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="${cssPathVal}" rel="stylesheet">
     <title>${titleVal}</title>
     <meta name="description" content="${descriptionVal}">
 </head>`
