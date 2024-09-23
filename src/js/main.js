@@ -40,8 +40,7 @@ class MyHeader extends HTMLElement{
     connectedCallback(){
       console.log('header called');
       const titleVal = this.getAttribute("title");
-      const descriptionVal = this.getAttribute("description");
-      const cssPath = this.getAttribute("cssPath");
+      const descriptionVal = this.getAttribute("description");      
         this.innerHTML = `
         <head>
     <meta charset="UTF-8">
